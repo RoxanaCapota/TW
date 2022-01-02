@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
 /* Style tab links */
 .tablink {
   background-color: #555;
@@ -19,11 +13,11 @@ body, html {
   width: 25%;
 }
 
-.tablink:hover {
+.tablink: hover {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
+/* Style the tab content */
 .tabcontent {
   color: black;
   display: none;
@@ -31,14 +25,6 @@ body, html {
   height: 100%;
 }
 
-/* text center */
-
-h3 {
-  text-align: center;
-}
-p {
-  text-align: center;
-}
 
 /* image center */
 .center {
@@ -47,6 +33,7 @@ p {
   margin-right: auto;
   width: 40%;
 }
+
 /* fav button */
 .fav {
     background-color: white ;
@@ -56,3 +43,45 @@ p {
     border-radius: 30px;
 }
 
+
+/* Newsletter */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: pink;
+  color: black;
+  border: black;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
