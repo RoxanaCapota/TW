@@ -52,9 +52,6 @@ p {
   text-align: center;
 }
 fav {
-    align-items: center;
-}
-fav {
     background-color: white ;
     color: black;
     padding: 10px 25px;
@@ -70,7 +67,7 @@ fav {
 }
 
 
-#Home {background-color: lightpink;}
+#Home {background-color: lightpink;  }
 #Movies {background-color: mistyrose;}
 #Series {background-color: seashell;}
 #Favorites {background-color: lavenderblush;}
@@ -88,10 +85,56 @@ fav {
 
 
 <div id="Home" class="tabcontent"> 
-  <h3>MOVIES TIME!!</h3>
-  <p>Hello! This page is to help those who are undecided on which movies or series to choose to watch. </p>
-</div>
+<style> 
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
 
+input[type=text]:focus {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+  <h3>MOVIES TIME!!</h3>
+  <p>Hello!</p>
+  <p>This page is to help those who are undecided on which movies or series to choose to watch. </p>
+
+
+<form action="/action_page.php">
+  <div class="container">
+  <h3>Subscribe to our Newsletter</h3>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <p><input type="text" placeholder="Name" name="name" required></p>
+    <p><input type="text" placeholder="Email address" name="mail" required></p>
+    <label>
+    
+    </label>
+  </div>
+
+  <div class="container">
+    <p><input type="submit" value="Subscribe"></p>
+  </div>
+</form>
+</div>
 
 
 <div id="Movies" class="tabcontent">
@@ -99,9 +142,7 @@ fav {
 
   <img src="rednotice.jpg" alt="" style="width:30%;" class="center">
       <h3>Red Notice</h3>
-
       <p><fav href=""><i class="fas fa-heart"></i>Favorites</fav></p>
-
       <p>Action and adventure, Comedy, Police movie | 2021 | 1h 57min </p>
   <img src="dangerouslies.jpg" alt="" style="width:20%;" class="center">
       <h3>Dangerous Lies</h3>
@@ -173,7 +214,7 @@ fav {
       <p><fav href=""><i class="fas fa-heart"></i>Favorites</fav></p>
       <p>History Drama | 2013 | 4 seasons | 78 episodes</p>
   <img src="sexandthecity.jpg" alt="" style="width:20%;" class="center">
-      <h3>Sex and the City</h3>
+      <h3>***** and the City</h3>
       <p><fav href=""><i class="fas fa-heart"></i>Favorites</fav></p>
       <p>Comedy, Romance, Drama | 1998 | 6 seasons | 94 episodes</p>
   <img src="gilmoregirls.jpg" alt="" style="width:20%;" class="center">
@@ -189,7 +230,7 @@ fav {
 
 <div id="Favorites" class="tabcontent">
   <h3>My List</h3>
-  <p></p>
+  
   
 </div>
 
