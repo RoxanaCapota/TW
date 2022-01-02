@@ -32,6 +32,7 @@ body, html {
 }
 
 /* text center */
+
 h3 {
   text-align: center;
 }
@@ -44,9 +45,14 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
+}
+/* fav button */
+.fav {
+    background-color: white ;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
 }
 
-#Home {background-color: lightpink;}
-#Movies {background-color: mistyrose;}
-#Series {background-color: lavenderblush;}
