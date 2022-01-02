@@ -34,16 +34,6 @@
   width: 40%;
 }
 
-/* fav button */
-.fav {
-    background-color: white ;
-    color: black;
-    padding: 10px 25px;
-    text-decoration: none;
-    border-radius: 30px;
-}
-
-
 /* Newsletter */
 
 body {font-family: Arial, Helvetica, sans-serif;}
